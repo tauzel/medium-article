@@ -65,6 +65,11 @@ a:hover {
   text-align: center;
   padding: 5vh;
 }
+@media (max-height: 500px) {
+  .banner {
+    height: 125px
+  }
+}
 
 .banner p {
   font-size: x-large;
